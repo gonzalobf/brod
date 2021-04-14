@@ -2,7 +2,10 @@
 [{<<"crc32cer">>,{pkg,<<"crc32cer">>,<<"0.1.4">>},1},
  {<<"kafka_protocol">>,{pkg,<<"kafka_protocol">>,<<"2.3.6">>},0},
  {<<"snappyer">>,{pkg,<<"snappyer">>,<<"1.2.5">>},1},
- {<<"supervisor3">>,{pkg,<<"supervisor3">>,<<"1.1.11">>},0}]}.
+ {<<"supervisor3">>,
+  {git,"https://github.com/dmrlawson/supervisor3.git",
+       {ref,"ed72399221963ce40aa4326d29a9ade4f4c30fa3"}},
+  0}]}.
 [
 {pkg_hash,[
  {<<"crc32cer">>, <<"A656DFF19474D1A1FC5BB0081610AB6B0695B23AFFC47FA90ABEB079A8EF9752">>},
